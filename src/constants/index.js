@@ -26,7 +26,11 @@ import {
   UI,
   a,
   mern,
-  salman
+  salman,
+  communityHub,
+  insurance,
+  teleMedicine,
+  yoga,
 } from "../assets";
 
 export const navLinks = [
@@ -136,7 +140,6 @@ const experiences = [
       "Developing web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-
     ],
   },
   {
@@ -182,6 +185,69 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Real-Time Yoga Pose Detection App",
+    description:
+      "A cutting-edge fitness app that leverages machine learning to detect yoga poses in real-time. Using advanced pose estimation models, the app evaluates users' movements, provides feedback on posture accuracy, and tracks their exercise progress. It also maintains a detailed record of completed exercises, allowing users to monitor their consistency and improvement over time. This app combines technology and wellness, offering a unique and engaging way to practice yoga with precision",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "contextapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yoga,
+    source_code_link: "https://github.com/ibilawalkhan/KaleedulQuran",
+  },
+  {
+    name: "Telemedicine",
+    description:
+      "A comprehensive telemedicine platform enabling users to book appointments with doctors and conduct secure video consultations. The web app includes features for uploading and managing prescriptions, ensuring a streamlined healthcare experience. Real-time notifications keep users updated on appointment statuses and reminders, enhancing engagement and convenience. This solution bridges the gap between patients and healthcare providers, offering a modern and efficient approach to virtual healthcare.",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "contextapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: teleMedicine,
+    source_code_link: "https://github.com/ibilawalkhan/KaleedulQuran",
+  },
+  {
+    name: "Community Hub",
+    description:
+      "A dynamic platform connecting skilled laborers with clients to collaborate on projects seamlessly. The web app facilitates real-time interactions through integrated chat and video calling features, enabling efficient communication. It also ensures secure transactions with robust payment gateway integration, providing a trustworthy environment for exchanging services. This app serves as a comprehensive hub for bridging the gap between service providers and clients, fostering collaboration and building lasting professional relationships.",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "contextapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: communityHub,
+    source_code_link: "https://github.com/ibilawalkhan/KaleedulQuran",
+  },
+  {
     name: "Kaleed Ul Quran",
     description:
       "Crafted a dynamic Full Stack mobile app using React Native and Firebase. You can search for Quran verses, get translations, and recite Surahs. The app also suggests Duas based on your emotions and shares stories of Prophets. As part of my development process, I contributed to the development community by publishing my own npm library for Arabic diacritics removal",
@@ -201,44 +267,6 @@ const projects = [
     ],
     image: UI,
     source_code_link: "https://github.com/ibilawalkhan/KaleedulQuran",
-  },
-  {
-    name: "Shopping Site",
-    description:
-      "Dive into a seamless shopping experience with our fully responsive Next.js web app, meticulously crafted with the power of Next.js and Tailwind CSS. Discover a world of effortless browsing and stylish finds, whether you're on your desktop or mobile device. Elevate your shopping journey with sleek design and unparalleled responsiveness.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "green-text-gradient",
-      },
-    ],
-    image: a,
-    source_code_link: "https://github.com/ibilawalkhan?tab=repositories",
-  },
-  {
-    name: "Social Media Web app",
-    description:
-      "Embark on a social adventure with our mini social media app, where your digital presence comes to life. Create your account, share captivating moments through pictures, and enjoy endless scrolling through a vibrant tapestry of posts. Connect with friends, express yourself visually, and immerse yourself in the simplicity of social storytelling.",
-    tags: [
-      {
-        name: "mern",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mern,
-    source_code_link: "https://github.com/ibilawalkhan/MERN-Stack-Projects/tree/main/SocialMediaWebApp",
   },
 ];
 

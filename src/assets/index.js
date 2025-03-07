@@ -29,11 +29,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import bk from './bk.png'
-import UI from './UI.jpg'
-import a from './a.jpeg'
-import mern from './mern.jpeg'
-import salman from './salman.jpeg'
+import bk from "./bk.png";
+import UI from "./UI.jpg";
+import a from "./a.jpeg";
+import mern from "./mern.jpeg";
+import salman from "./salman.jpeg";
+import communityHub from "./projects/communityHub.jpeg";
+import insurance from "./projects/insurance.jpeg";
+import teleMedicine from "./projects/teleMedicine.jpeg";
+import yoga from "./projects/yoga.jpeg";
+
 export {
   logo,
   bk,
@@ -68,4 +73,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  communityHub,
+  insurance,
+  teleMedicine,
+  yoga,
 };
