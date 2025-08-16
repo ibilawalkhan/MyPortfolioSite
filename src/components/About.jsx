@@ -44,7 +44,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         style={{ textAlign: 'justify' }}
       >
-        I am a Full Stack Web Developer with a passion for creating Moblile Apps. I have a strong background in HTML, CSS, JavaScript, TypeScript and React.js, NextJs, MERN Stack, React Native and I am always eager to learn new technologies and improve my skills.
+        I'm a Software Engineer with expertise in building full stack applications. On the backend, I have experience working with Node.js, Express.js, and NestJS, along with databases such as MongoDB, PostgreSQL, MariaDB, ClickHouse, and Redis while Frontend using React. I’ve worked extensively with microservices architecture, implemented asynchronous communication with messaging queues like RabbitMQ, containerized applications using Docker, and deployed solutions on AWS, leveraging various AWS services and third-party integrations to build scalable and efficient systems.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

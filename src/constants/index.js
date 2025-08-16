@@ -25,12 +25,14 @@ import {
   threejs,
   UI,
   a,
-  mern,
+  mern, 
   salman,
   communityHub,
   insurance,
   teleMedicine,
   yoga,
+  fusionsuite,
+  bluemines,
 } from "../assets";
 
 export const navLinks = [
@@ -47,23 +49,23 @@ export const navLinks = [
     title: "Contact",
   },
 ];
-
+ 
 const services = [
-  {
-    title: "MERN Developer",
-    icon: web,
-  },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "NextJs Developer",
-    icon: creator,
+    title: "MERN Developer",
+    icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "NestJs Developer",
     icon: mobile,
+  },
+  {
+    title: "Cloud AWS",
+    icon: creator,
   },
 ];
 
@@ -120,26 +122,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React Native Developer",
+    title: "NestJs Developer",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Experienced Full Stack React Native Developer proficient in crafting end-to-end solutions for mobile applications, ensuring a seamless user experience.",
-      "Integrating mobile applications with backend services and databases, ensuring optimal data flow and synchronization between the front-end and back-end components.",
-      "Ensuring smooth navigation and user interactions, optimizing performance for various device specifications and screen sizes.",
-      "Implementing state management solutions within the React Native ecosystem for efficient data handling and synchronization.",
+      "Experienced Backend Developer with expertise in building scalable and maintainable server-side applications using NestJS.",
+      "Proficient in designing and implementing robust RESTful APIs and real-time communication using WebSockets.",
+      "Skilled in integrating backend services with databases (SQL and NoSQL), managing authentication/authorization workflows, and ensuring data integrity and security.",
+      "ImpleCapable of orchestrating microservices and handling complex business logic while ensuring optimal performance and maintainability.",
     ],
   },
   {
-    title: "React.js Developer",
+    title: "NodeJs Developer",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Skilled Backend Developer with hands-on experience in building high-performance server-side applications using Node.js and Express.js.",
+      "Experienced in managing asynchronous operations, optimizing performance, and ensuring system reliability using Node.js’s non-blocking I/O model.",
+      "Strong knowledge of backend architecture, including authentication, data validation, error handling, and API versioning, with seamless database integration (MongoDB, PostgreSQL, etc.)",
     ],
   },
   {
@@ -155,15 +157,15 @@ const experiences = [
     ],
   },
   {
-    title: "NextJs Developer",
+    title: "WordPress Developer",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing dynamic and modern web applications using Next.js, a powerful React-based framework for server-side rendering and static site generation.",
-      "Implementing server-side rendering (SSR) and ensuring efficient client-side rendering to achieve optimal page load times and user experiences.",
-      "Integrating with APIs and external services, leveraging the flexibility of Next.js to connect front-end components with various back-end technologies.",
-      "Integrating front-end components with back-end services and databases, creating a cohesive and scalable full-stack architecture within the Next.js framework.",
+      "Experienced WordPress Developer skilled in building and customizing dynamic, responsive websites using WordPress as a CMS.",
+      "Proficient in developing custom themes and plugins to meet unique client or project requirements, ensuring performance, scalability, and maintainability.",
+      "Well-versed in leveraging page builders (Elementor, WPBakery, etc.) and optimizing websites for SEO, accessibility, and fast load times.",
+      "Capable of managing WordPress security, backups, and performance tuning, delivering fully functional websites from concept to deployment.",
     ],
   },
 ];
@@ -177,33 +179,82 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never seen a developer so dedicated to delivering quality, maintaining clear communication, and truly understanding the client's vision.",
     name: "Numan",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://randomuser.me/api/portraits/men/9.jpg",
   },
+  {
+    testimonial:
+      "Working with him on Maelano was a game-changer. His ability to turn complex requirements into a smooth, user-friendly platform was impressive.",
+    name: "Mohsin",
+    image: "https://randomuser.me/api/portraits/men/7.jpg"
+  }
+  
 ];
 
 const projects = [
   {
-    name: "Real-Time Yoga Pose Detection App",
+    name: "FusionSuite",
     description:
-      "A cutting-edge fitness app that leverages machine learning to detect yoga poses in real-time. Using advanced pose estimation models, the app evaluates users' movements, provides feedback on posture accuracy, and tracks their exercise progress. It also maintains a detailed record of completed exercises, allowing users to monitor their consistency and improvement over time. This app combines technology and wellness, offering a unique and engaging way to practice yoga with precision",
+      "FusionSuite.io is a comprehensive platform designed to streamline mobile app testing and lifecycle management throughout the software development process. It offers a unified suite of tools including bug and crash reporting, version control, and force update capabilities to ensure apps remain stable, up-to-date, and reliable. The platform also features customizable surveys and sentiment insights to gather valuable user feedback and prioritize improvements effectively. Accessible via a dedicated mobile app and a convenient web extension, FusionSuite empowers development teams to efficiently track issues, manage releases, and enhance collaboration.",
     tags: [
       {
-        name: "reactnative",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "microservices",
         color: "green-text-gradient",
       },
       {
-        name: "contextapi",
+        name: "mongodb postgres mariadb clickhouse",
         color: "pink-text-gradient",
       },
     ],
-    image: yoga,
+    image: fusionsuite,
     source_code_link: "https://github.com/ibilawalkhan/KaleedulQuran",
+  },
+  {
+    name: "Maelano",
+    description:
+      "A next-generation e-commerce platform built for scalability and seamless user experience, inspired by platforms like Amazon. This solution leverages intelligent algorithms to personalize product recommendations, optimize search results, and enhance customer engagement. It features a robust product catalog system, real-time inventory management, and a secure, scalable checkout process with integrated payment gateways. The platform tracks user behavior and purchase history to offer data-driven insights and improve customer retention.",
+    tags: [
+      {
+        name: "nodeJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "microservices",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: a,
+    source_code_link: "https://github.com/ibilawalkhan/Maelano",
+  },
+  {
+    name: "Bluemines",
+    description:
+      "An innovative chain marketing and referral-based platform designed to incentivize user growth and engagement through a structured rewards system. Bluemines.xyz enables users to earn through multi-level referrals, creating a self-sustaining network that drives exponential growth. Built with a focus on transparency, performance, and scalability, the platform includes automated referral tracking, wallet integration, and real-time commission distribution. Users can monitor their network performance, earnings, and referral trees via a clean, intuitive dashboard.",
+    tags: [
+      {
+        name: "nestJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgres",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bluemines,
+    source_code_link: "https://github.com/ibilawalkhan/YogaPoseDetection",
   },
   {
     name: "Telemedicine",
@@ -224,7 +275,7 @@ const projects = [
       },
     ],
     image: teleMedicine,
-    source_code_link: "https://github.com/ibilawalkhan/KaleedulQuran",
+    source_code_link: "https://github.com/ibilawalkhan/Telemedicine",
   },
   {
     name: "Community Hub",
@@ -245,29 +296,29 @@ const projects = [
       },
     ],
     image: communityHub,
-    source_code_link: "https://github.com/ibilawalkhan/KaleedulQuran",
+    source_code_link: "https://github.com/ibilawalkhan/CommunityHub",
   },
   {
-    name: "Kaleed Ul Quran",
+    name: "Insurance Management System",
     description:
-      "Crafted a dynamic Full Stack mobile app using React Native and Firebase. You can search for Quran verses, get translations, and recite Surahs. The app also suggests Duas based on your emotions and shares stories of Prophets. As part of my development process, I contributed to the development community by publishing my own npm library for Arabic diacritics removal",
+      "A comprehensive insurance management platform that streamlines policy management, claims processing, and customer service. The system features automated workflows for policy creation, real-time claim tracking, and integrated payment processing. It includes advanced analytics for risk assessment and customer insights, helping insurance companies optimize their operations and improve customer satisfaction.",
     tags: [
       {
-        name: "reactnative",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "contextapi",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: UI,
-    source_code_link: "https://github.com/ibilawalkhan/KaleedulQuran",
-  },
+    image: insurance,
+    source_code_link: "https://github.com/ibilawalkhan/InsuranceSystem",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

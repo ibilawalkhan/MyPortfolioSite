@@ -32,7 +32,7 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        'service_rdss8e6',
+        'service_dx9b7nh',
         'template_v7xjxvw',
         {
           from_name: form.name,

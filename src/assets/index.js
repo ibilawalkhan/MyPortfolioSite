@@ -38,6 +38,8 @@ import communityHub from "./projects/communityHub.jpeg";
 import insurance from "./projects/insurance.jpeg";
 import teleMedicine from "./projects/teleMedicine.jpeg";
 import yoga from "./projects/yoga.jpeg";
+import fusionsuite from "./fusionsuite.jpeg";
+import bluemines from "./bluemines.jpeg";
 
 export {
   logo,
@@ -77,4 +79,6 @@ export {
   insurance,
   teleMedicine,
   yoga,
+  fusionsuite,
+  bluemines,
 };
