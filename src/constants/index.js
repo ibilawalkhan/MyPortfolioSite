@@ -45,9 +45,17 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "testimonials",
+    title: "Testimonials",
+  },
+  {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
  
 const services = [
@@ -179,7 +187,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never seen a developer so dedicated to delivering quality, maintaining clear communication, and truly understanding the client's vision.",
+      "I've never seen a developer so dedicated to delivering quality, maintaining clear communication, and truly understanding the client's vision. Much Appreciated!",
     name: "Numan",
     image: "https://randomuser.me/api/portraits/men/9.jpg",
   },
